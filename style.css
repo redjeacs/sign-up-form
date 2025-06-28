@@ -67,7 +67,25 @@ footer, a {
   width: 60vw;
 }
 
+.form-section div {
+  padding: 50px;
+}
+
 .disclaimer {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   height: 34vh;
-  font-family: ;
+  font-family: Helvetica, sans-serif, Arial;
+  background-color: #E5E7EB;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+.disclaimer > p {
+  width: 55ch;
+}
+
+.expression {
+  margin-top: 2rem;
 }
