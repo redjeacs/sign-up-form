@@ -57,7 +57,6 @@ footer {
 }
 
 footer, a {
-  text-decoration: none;
   color: #E5E7EB;
 }
 
@@ -97,7 +96,7 @@ label {
 }
 
 input {
-  border: 1px solid darkgray;
+  border: 1px solid #E5E7EB;
   width: 60ch;
   height: 2em;
   border-radius: 5px;
