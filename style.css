@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif, Arial;
 }
 
 @font-face {
@@ -119,4 +120,31 @@ input:focus {
   border: 1px solid blue;
   outline: none;
   box-shadow: 0.5px 0.5px 5px 1px rgb(0, 0, 255, 0.4);
+}
+
+.form-submit-section {
+  padding: 50px;
+  background-color: #E5E7EB;
+  height: 36vh;
+}
+
+button {
+  padding: 20px 50px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #596D48;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px 1px rgb(0, 0, 0, 0.2);
+}
+
+.form-submit-section > p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.log-in-link {
+  text-decoration: none;
+  color: #596D48;
 }
