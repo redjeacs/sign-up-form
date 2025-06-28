@@ -96,6 +96,7 @@ label {
 }
 
 input {
+  appearance: none;
   border: 1px solid #E5E7EB;
   width: 60ch;
   height: 2em;
@@ -108,4 +109,14 @@ input {
   display: flex;
   gap: 50px;
   margin: 20px 0;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:focus {
+  border: 1px solid blue;
+  outline: none;
+  box-shadow: 0.5px 0.5px 5px 1px rgb(0, 0, 255, 0.4);
 }
