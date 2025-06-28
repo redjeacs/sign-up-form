@@ -21,7 +21,7 @@
         <p>Sign up <em>now</em> to get started.</p>
         <p class="expression">You <em>know</em> you want to.</p>
       </div>
-      <form action="" method="post">
+      <form action="" method="post" id="myform">
         <h2 class="form-heading">Let's do this!</h2>
         <div class="name-form">
           <div>
@@ -52,8 +52,14 @@
             <label for="confirm-pwd">CONFIRM PASSWORD</label>
             <input type="password" name="user-password-confirm" id="confirm-pwd" required>
           </div>
-        </pwd-creation-form>
+        </div>
       </form>
+      <div class="form-submit-section">
+          <button type="submit" form="myform">Create Account</button>
+          <div>
+            <p>Already have an account? <a href="login.com">Log in</a></p>
+          </div>
+      </div>
     </div>
   </div>
 </body>
